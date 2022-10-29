@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottome_line_light"
+    android:orientation="horizontal"
+    android:padding="@dimen/normal_padding"
+
+    >
+
+    <TextView
+        android:id="@+id/txtCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1."
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/normal_padding"
+        android:paddingRight="@dimen/normal_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="How do you feel?"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgFeel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/normal_padding"
+                android:src="@drawable/icon_smile"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="How intense is the mood?"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:paddingLeft="@dimen/normal_padding"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="Date &amp; Time :"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+
+                android:paddingLeft="@dimen/normal_padding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="Location :"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+
+                android:paddingLeft="@dimen/normal_padding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="What Happened :"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHappened"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+
+                android:paddingLeft="@dimen/normal_padding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="Negative thoughts :"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNegative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+
+                android:paddingLeft="@dimen/normal_padding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:text="What Advice?"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAdvice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+
+                android:paddingLeft="@dimen/normal_padding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_small" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/icon_edit" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_delete_row" />
+    </LinearLayout>
+</LinearLayout>

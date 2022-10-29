@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/default_padding"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_mind_hack" />
+            </LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+
+                android:text="@string/mindhack_1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@drawable/bottome_line_light"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+
+                android:text="@string/mindhack_2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@drawable/bottome_line_light"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+
+                android:text="@string/mindhack_3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@drawable/bottome_line_light"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+
+                android:text="@string/mindhack_4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@drawable/bottome_line_light"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:layout_marginTop="16dp"
+
+                android:text="@string/mindhack_5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal"
+                android:background="@drawable/bottome_line_light"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

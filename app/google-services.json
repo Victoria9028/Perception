@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15219744214",
+    "firebase_url": "https://perception-661a0.firebaseio.com",
+    "project_id": "perception-661a0",
+    "storage_bucket": "perception-661a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15219744214:android:5d36bb9dc8ca0859c75877",
+        "android_client_info": {
+          "package_name": "com.perception"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15219744214-6ks3pjauggjg8j1i2gp080nv6ch1s9a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZwJEOCp5u5rQhuN5m0EOPp2_BsfYXfnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15219744214-6ks3pjauggjg8j1i2gp080nv6ch1s9a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

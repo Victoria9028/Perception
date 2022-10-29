@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Perception</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sign_up_msg">Don\'t have an account?  <b>Sign Up</b></string>
+    <string name="sign_in_msg">Already have an account?  <b>Sign In</b></string>
+
+    <string name="forgot_pass_msg">We will send you an email with a link to reset your password.</string>
+    <string name="meditate_msg">Find somewhere quiet,relax and practise meditation.if you\'r new,it\'s best to start anywhere from 5–10 minutes and gradually increase the duration.</string>
+    <string name="gratitude_msg">List five things you\'re grateful for and practise gratitude for then for five minute</string>
+<string name="dummy_text">Praesent ligula felis, varius ut rutrum tincidunt, interdum ac libero. Fusce eu porttitor turpis. Proin quis dui at nibh cursus vehicula. Sed ut auctor eros. Maecenas finibus vehicula diam in pharetra. Donec magna lacus, facilisis quis congue vel, porttitor ac mauris. Nullam felis augue, ullamcorper quis vestibulum id, tristique sed nisl.</string>
+    
+    
+    
+    <string name="mindhack_1">1.	If you haven’t slept well. Tell your brain “I slept well”. You will feel refreshed and it works like a charm</string>
+    <string name="mindhack_2">2.	Want to get rid of hypothetical negative thoughts? Ask them logical questions when they strike you. They will lose their power and gradually their frequency will reduce.</string>
+    <string name="mindhack_3">3.	Want to feel confident? When meeting someone just assume you have everything, they want from you. It will be enough to seal the deal.</string>
+    <string name="mindhack_4">4.	Want to relieve stress in an awkward situation? Smile, you will instantly feel light and happy.</string>
+    <string name="mindhack_5">5.	Want to complete something? Convince your brain to start the work. Once you do you will find it interesting and complete it.</string>
+
+    <string name="goodDeed_1">1.	Compliment someone and be genuine</string>
+    <string name="goodDeed_2">2.	Donate to charity. Clothes, money, old toys etc.</string>
+    <string name="goodDeed_3">3.	Volunteer for an hour at an organisation of your choice</string>
+    <string name="goodDeed_4">4.	Buy someone a gift – just because.</string>
+    <string name="goodDeed_5">5.	Allow a fellow driver to merge into your lane</string>
+    <string name="goodDeed_6">6.	Write a thank-you note to someone who wouldn’t expect it</string>
+    <string name="goodDeed_7">7.	Plant a tree</string>
+    <string name="goodDeed_8">8.	Think of something you do well and use that talent to benefit others</string>
+    <string name="goodDeed_9">9.	Teach an elderly person to surf the internet, write e-mails etc.</string>
+    <string name="goodDeed_10">10.	Organise a family meal and appreciate being together</string>
+
+</resources>

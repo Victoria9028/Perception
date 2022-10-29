@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingTop="@dimen/normal_padding"
+        android:paddingBottom="@dimen/normal_padding"
+        android:text="YouTube links to inspirational quotes, people, mindfulness and music, etc."
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:paddingTop="@dimen/normal_padding"
+            android:paddingBottom="@dimen/normal_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical"
+                android:padding="@dimen/normal_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quotes :: Youtube Video"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <ImageView
+                    android:id="@+id/imgQuotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_quotes" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical"
+                android:padding="@dimen/normal_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="People :: Youtube Video"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <ImageView
+                    android:id="@+id/imgPeoples"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_peoples" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical"
+                android:padding="@dimen/normal_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mindfulness Relaxation :: Youtube Video"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <ImageView
+                    android:id="@+id/imgMindfulnessRelaxation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_relex" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical"
+                android:padding="@dimen/normal_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Music :: Youtube Video"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <ImageView
+                    android:id="@+id/imgMusic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_music" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

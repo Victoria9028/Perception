@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Hear you can edit coping strategies details"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bottome_line_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginRight="10dp"
+                android:text="Coping Strategies Details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_normal" />
+
+            <EditText
+                android:id="@+id/edtDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:minLines="5"
+                android:background="@null"
+                android:gravity="start|top"
+                android:hint="type hear"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtSignIN"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_selector"
+        android:padding="10dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_big" />
+</LinearLayout>

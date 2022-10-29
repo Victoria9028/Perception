@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="How do you feel?"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgTarible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_terrible" />
+
+                    <ImageView
+                        android:id="@+id/imgCry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:src="@drawable/icon_cry" />
+
+                    <ImageView
+                        android:id="@+id/imgNatural"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_natural" />
+
+                    <ImageView
+                        android:id="@+id/imgSmile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_smile" />
+
+                    <ImageView
+                        android:id="@+id/imgHappy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon_happy" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="How intense is the mood.1 being not so intense and 10 being very intense."
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <com.crystal.crystalrangeseekbar.widgets.BubbleThumbSeekbar
+                    android:id="@+id/rangeIntense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+
+                    app:bar_color="@color/white"
+                    app:bar_highlight_color="#A54B17"
+                    app:corner_radius="10"
+                    app:data_type="_integer"
+                    app:left_thumb_color="#775E4F"
+                    app:left_thumb_color_pressed="#4C2D1A"
+                    app:max_value="10"
+                    app:min_value="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="Date and time of mood."
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Date"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/icon_calendar"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Time"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/icon_time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="Location at time of mood."
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <EditText
+                    android:id="@+id/edtLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    style="@style/edittext"
+                    android:hint="Location"
+                    android:drawablePadding="10dp"
+                    android:gravity="left|center"
+                    android:drawableLeft="@drawable/icon_address"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="What happened just before you felt this way?"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <EditText
+                    android:id="@+id/edtHappened"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:minLines="5"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="type hear"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="What negative thoughts were you having?"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <EditText
+                    android:id="@+id/edtNagative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:minLines="5"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="type hear"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bottome_line_light"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginRight="10dp"
+                    android:text="What advice would you give if it was someone else?"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <EditText
+                    android:id="@+id/edtAdvice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:minLines="5"
+                    android:background="@null"
+                    android:gravity="start|top"
+                    android:hint="type hear"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:inputType="textMultiLine" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txtSignUp"
+                android:background="@drawable/button_selector"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_big"
+                android:padding="10dp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
